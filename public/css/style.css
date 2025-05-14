@@ -66,10 +66,10 @@ body {
 
 .hero {
   background: linear-gradient(rgba(165, 29, 29, 0.5), rgba(0, 0, 0, 0.5)),
-              url('public/images/hero-bg.jpg') center/cover no-repeat;
+              url('../images/hero-bg.jpg') center/cover no-repeat;
 }
 .hero::before {
-  background: url('public/images/hero-bg.jpg') center/cover no-repeat;
+  background: url('../images/hero-bg.jpg') center/cover no-repeat;
 }
 
 .hero {
@@ -91,7 +91,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('public/images/hero-bg.jpg') center/cover no-repeat;
+    background: url('../images/hero-bg.jpg') center/cover no-repeat;
     filter: blur(8px); /* Adjust the blur here */
     z-index: 1;
     transform: scale(1.1); /* Optional zoom effect */
